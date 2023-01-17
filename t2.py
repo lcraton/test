@@ -3,6 +3,6 @@
 import psycopg
 
 try:
-    conn = psycopg.connect("dbname='template1' user='dbuser' host='localhost' password='dbpass'")
+    conn = psycopg.connect("dbname='test' user='dashl' host='localhost' password='cr2kbsi'")
 except:
     print("I am unable to connect to the database")

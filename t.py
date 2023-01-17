@@ -1,7 +1,7 @@
 import psycopg
 
 # Connect to an existing database
-conn = psycopg.connect("dbname=test user=dashl")
+conn = psycopg.connect("dbname='test' user='dashl' host='localhost'")
 
 # Open a cursor to perform database operations
 cur = conn.cursor()
